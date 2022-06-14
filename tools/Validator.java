@@ -6,11 +6,11 @@ public class Validator {
 		return str.matches(pattern);
 	}
 	public static boolean checkDateFormatEU(String str) {
-		String pattern = "([0-2][1-9]|[2][0]|[3][0-1])[.]([0][1-9]|[1][0-2])[.]([0-9][0-9][0-9][0-9])";
+		String pattern = "([0-2][1-9]|[1-3][0]|[3][1])[.]([0][1-9]|[1][0-2])[.]([0-9][0-9][0-9][0-9])";
 		return str.matches(pattern);
 	}
 	public static boolean checkDateFormatUS(String str) {
-		String pattern = "([0-9][0-9][0-9][0-9])\\-([0][1-9]|[1][0-2])\\-([0-2][1-9]|[2][0]|[3][0-1])";
+		String pattern = "([0-9][0-9][0-9][0-9])\\-([0][1-9]|[1][0-2])\\-([0-2][1-9]|[1-3][0]|[3][1])";
 		return str.matches(pattern);
 	}
 	public static boolean checkPhoneNumber(String str) {

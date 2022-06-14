@@ -4,7 +4,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-import tools.Validator;
+import tools.Validator; //import tools.Validator.*; and no Validator. in ways down
 
 public class ValidatorTest {
     @Test
